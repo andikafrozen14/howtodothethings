@@ -21,3 +21,12 @@ git checkout <branch-name>				Switch to the other branch.
 git checkout -b <branch-name>			Create new branch and switch into it.
 git merge <branch-name>						Merge with the other branch.
 git branch -d <branch-name>				Remove the branch (we have to in outside it).
+
+--------------------------------------------------------------------------------------------------------------------------------------
+| Remote Action
+--------------------------------------------------------------------------------------------------------------------------------------
+git clone <url>									Clone a repository from remote host.
+git push -u <remote-name> <branch>				Push the changes to the remote host for the first time. Remote name usually is origin.
+git push 										Push the changes to the remote host.
+git remote add <remote-name> <url>				Remote declared from localhost, URL format: https://github.com/<username>/<repositoryname>.git
+git remote set-url <remote-name> <token-url>	Change remote access using token URL with format: https://<githubtoken>@github.com/<username>/<repositoryname>.git
