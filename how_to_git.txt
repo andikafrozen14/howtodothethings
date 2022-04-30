@@ -1,0 +1,23 @@
+--------------------------------------------------------------------------------------------------------------------------------------
+| Create a new local repository
+--------------------------------------------------------------------------------------------------------------------------------------
+git init						Create local repository of GIT.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+| Commiting
+--------------------------------------------------------------------------------------------------------------------------------------
+git add .						            Add all files which have not existed on the staging area.
+git add <file-name>				      Add a file which have not existed on the staging area.
+git commit -m "<messages>"		  Basic commit command.
+git commit -a -m "<messages>"	  Add one or several changes (modified) then commit it.
+git commit -am "<message>"		  Add one or several changes (modified) then commit it.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+| Branch Action
+--------------------------------------------------------------------------------------------------------------------------------------
+git branch												Show branch list.
+git branch <name>									Create new branch.
+git checkout <branch-name>				Switch to the other branch.
+git checkout -b <branch-name>			Create new branch and switch into it.
+git merge <branch-name>						Merge with the other branch.
+git branch -d <branch-name>				Remove the branch (we have to in outside it).
